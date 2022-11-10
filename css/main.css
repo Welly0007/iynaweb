@@ -361,7 +361,9 @@ nav {
   position: absolute;
   z-index: 0;
 }
-.hi-slide > ul > li > img {
+/* edited by Mikhael */
+.hi-slide > ul > li > img,
+.hi-slide > ul > li > a > img {
   width: 100%;
   height: 100%;
 }
