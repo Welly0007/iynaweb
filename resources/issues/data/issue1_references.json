@@ -81,8 +81,26 @@
     },
     "article6": {
       "articleNo": "6",
-      "noofreferences": "0",
-      "references": []
+      "noofreferences": "17",
+      "references": [
+        "[1] Scott, William K.. Heredity and Alzheimer's disease: basic findings and clinical implications. Current Opinion in Psychiatry: July 1998 - Volume 11 - Issue 4 - p 417-423.",
+        "[2] Pollen, Daniel A. Hannah's heirs: the quest for the genetic origins of Alzheimer's disease. Oxford University Press on Demand, 1996.",
+        "[3] Tom Brody Ph.D., in <a href=\"https://www.sciencedirect.com/book/9780128042175/clinical-trials\" target=\"_blank>\"Clinical Trials (Second Edition)</a>, 2016",
+        "[4] Gatz M, Reynolds CA, Fratiglioni L, et al. Role of Genes and Environments for Explaining Alzheimer Disease. Arch Gen Psychiatry. 2006;63(2):168–174. doi:10.1001/archpsyc.63.2.168",
+        "[5] Harold, D., Abraham, R., Hollingworth, P., Sims, R., Gerrish, A., Hamshere, M. L., … Williams, A. (2009). Genome-wide association study identifies variants at CLU and PICALM associated with Alzheimer’s disease. Nature Genetics, 41(10), 1088–1093. doi:10.1038/ng.440",
+        "[6] Rao, A. T., A. J. Degnan, and L. M. Levy. \"Genetics of Alzheimer disease.\" American Journal of Neuroradiology 35.3 (2014): 457-458.",
+        "[7] Janus, Christopher, and David Westaway. \"Transgenic mouse models of Alzheimer's disease.\" Physiology & behavior 73.5 (2001): 873-886.",
+        "[8] Escott-Price, Valentina, and John Hardy. \"Genome-wide association studies for Alzheimer’s disease: bigger is not always better.\" Brain Communications 4.3 (2022): fcac125.",
+        "[9] Senior, Kathryn. \"Dosing in phase II trial of Alzheimer's vaccine suspended.\" The Lancet Neurology 1.1 (2002): 3.",
+        "[10] Schneeberger, A., et al. \"Development of AFFITOPE vaccines for Alzheimer’s disease (AD)—from concept to clinical testing.\" JNHA-The Journal of Nutrition, Health and Aging 13.3 (2009): 264-267.",
+        "[11] Honig, Lawrence S., et al. \"Trial of solanezumab for mild dementia due to Alzheimer’s disease.\" New England Journal of Medicine 378.4 (2018): 321-330.",
+        "[12] Abbott, A., & Dolgin, E. (2016). Failed Alzheimer’s trial does not kill leading theory of disease. Nature, 540(7631), 15–16. doi:10.1038/nature.2016.21045    (solanezumab)",
+        "[13] Budd Haeberlein S, O'Gorman J, Chiao P, et al. Clinical Development of Aducanumab, an Anti-Aβ Human Monoclonal Antibody Being Investigated for the Treatment of Early Alzheimer's Disease. The Journal of Prevention of Alzheimer's Disease. 2017 ;4(4):255-263. DOI: 10.14283/jpad.2017.39. PMID: 29181491.",
+        "[14] <a href=\"https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbUFkblVmM3llcDNXMnZfWkZUTWktRzZTWThVd3xBQ3Jtc0trQjJYV3dQUFRoMEFmdTNBbENNUlVqa0Q4a3Y3UVdXOTBGdldoNFQ4RENERVhSY2F1bXFISnQzSU9uOEsxZkp5b2NzUnozNjR2UG1qTHVfV3ltcXRUNzVHTU1vSi1wOEVrUF9VVTZKcm5fMUFQYUgzNA&q=http%3A%2F%2Fwww.cell.com%2Fneuron%2Ffulltext%2FS0896-6273%2818%2930421-5&v=Ha3JdNofoy8\" target=\"_blank\">https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbUFkblVmM3llcDNXMnZfWkZUTWktRzZTWThVd3xBQ3Jtc0trQjJYV3dQUFRoMEFmdTNBbENNUlVqa0Q4a3Y3UVdXOTBGdldoNFQ4RENERVhSY2F1bXFISnQzSU9uOEsxZkp5b2NzUnozNjR2UG1qTHVfV3ltcXRUNzVHTU1vSi1wOEVrUF9VVTZKcm5fMUFQYUgzNA&q=http%3A%2F%2Fwww.cell.com%2Fneuron%2Ffulltext%2FS0896-6273%2818%2930421-5&v=Ha3JdNofoy8</a>",
+        "[15] <a href=\"https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbDd3bmp0WVI3UVpRU2VxMnliV3dKb2F3MVA5d3xBQ3Jtc0tsc2ZPbUZ0NFgza050cVR1M3A3d0VDcDFiV25WQlBQZ3RUOGotQmtTZ3ZVamVzQlZXWFZvc1lZR202TFJ1NU1GR2V6MHEzTFI5YTVESGpyRElLRzJYZ2hhLXRYejA3Q3BhZVM5UkhjRmJ1UjltbWhuRQ&q=https%3A%2F%2Fwww.nature.com%2Farticles%2Fnrd3505&v=Ha3JdNofoy8\" target=\"_blank\">https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbDd3bmp0WVI3UVpRU2VxMnliV3dKb2F3MVA5d3xBQ3Jtc0tsc2ZPbUZ0NFgza050cVR1M3A3d0VDcDFiV25WQlBQZ3RUOGotQmtTZ3ZVamVzQlZXWFZvc1lZR202TFJ1NU1GR2V6MHEzTFI5YTVESGpyRElLRzJYZ2hhLXRYejA3Q3BhZVM5UkhjRmJ1UjltbWhuRQ&q=https%3A%2F%2Fwww.nature.com%2Farticles%2Fnrd3505&v=Ha3JdNofoy8</a>",
+        "[16] Balin, B. J., & Hudson, A. P. (2018). Herpes viruses and Alzheimer’s disease: new evidence in the debate. The Lancet Neurology, 17(10), 839–841. doi:10.1016/s1474-4422(18)30316-8",
+        "[17] Balin, Brian J., and Alan P. Hudson. \"Herpes viruses and Alzheimer's disease: new evidence in the debate.\" The Lancet Neurology 17.10 (2018): 839-841."
+      ]
     },
     "article7": {
       "articleNo": "7",

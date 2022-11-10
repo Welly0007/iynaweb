@@ -73,7 +73,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
           </div>
           <div class="offcanvas-body">
-            <ul id="offcanvas-nav-list" no-of-sections="5">
+            <ul id="offcanvas-nav-list" no-of-sections="11">
               <p class="offcanvas-section-title">Introduction</p>
               <div>
                 <li>
@@ -89,7 +89,6 @@
                   <a href="#section-2"><button data-bs-dismiss="offcanvas" section-no="2" @click="currentSection = 'section-2'">The Cerebrum: The Ultimate crown of creation and evolution</button></a>
                 </li>
                 <p class="offcanvas-article-info text-muted">
-                  <span title="Category">Todo!!!!!!</span><br />
                   <span title="Author">Mohammed Majid Abdulsalam</span>
                 </p>
               </div>
@@ -98,7 +97,6 @@
                   <a href="#section-3"><button data-bs-dismiss="offcanvas" section-no="3" @click="currentSection = 'section-3'">Addiction and recovery</button></a>
                 </li>
                 <p class="offcanvas-article-info text-muted">
-                  <span title="Category">Todo!!!!!1</span><br />
                   <span title="Author">Kareem Mohamed Ibrahim</span>
                 </p>
               </div>
@@ -107,7 +105,6 @@
                   <a href="#section-4"><button data-bs-dismiss="offcanvas" section-no="4" @click="currentSection = 'section-4'">Parkinson’s Disease & Other Movement Disorders</button></a>
                 </li>
                 <p class="offcanvas-article-info text-muted">
-                  <span title="Category">Todo!!!!!!!!</span><br />
                   <span title="Author">Ziad Elbadry</span>
                 </p>
               </div>
@@ -116,7 +113,6 @@
                   <a href="#section-5"><button data-bs-dismiss="offcanvas" section-no="5" @click="currentSection = 'section-5'">JAK/STAT pathway inhibitors to treat neuroinflammation: A novel treatment for Parkinson Disease patients</button></a>
                 </li>
                 <p class="offcanvas-article-info text-muted">
-                  <span title="Category">Todo!!!!!!!!!!!!</span><br />
                   <span title="Author">Akmal M. Hashad | Gasser M. Alwasify</span>
                 </p>
               </div>
@@ -125,17 +121,15 @@
                   <a href="#section-6"><button data-bs-dismiss="offcanvas" section-no="6" @click="currentSection = 'section-6'">Alzheimer (symptoms, treatment)</button></a>
                 </li>
                 <p class="offcanvas-article-info text-muted">
-                  <span title="Category">Todo!!!!!</span><br />
                   <span title="Author">Ziad Elbadry</span><br />
                 </p>
               </div>
               <div>
                 <li>
-                  <a href="#section-7"><button data-bs-dismiss="offcanvas" section-no="7" @click="currentSection = 'section-7'">Global connectivity of the frontoparietal cognitive control network is related to depression symptoms in the general population</button></a>
+                  <a href="#section-7"><button data-bs-dismiss="offcanvas" section-no="7" @click="currentSection = 'section-7'">Genetics of Alzheimer’s disease: How the beta-amyloid hypothesis (Aβ) cannot be the best framework for understanding, addressing, and treating Alzheimer's disease.</button></a>
                 </li>
                 <p class="offcanvas-article-info text-muted">
-                  <span title="Category">Todo!!!!!</span><br />
-                  <span title="Author">Adham Emam | Mohammed Hassan | Mohamed Majid | Omar Amr | Jonathan Maged</span><br />
+                  <span title="Author">Sama El Sayed</span><br />
                 </p>
               </div>
               <div>
@@ -143,7 +137,6 @@
                   <a href="#section-8"><button data-bs-dismiss="offcanvas" section-no="8" @click="currentSection = 'section-8'">Stem Cell Therapies and Neurodegeneration Diseases</button></a>
                 </li>
                 <p class="offcanvas-article-info text-muted">
-                  <span title="Category">Todo!!!!!</span><br />
                   <span title="Author">Kareem Mohamed Ibrahim</span><br />
                 </p>
               </div>
@@ -152,17 +145,15 @@
                   <a href="#section-9"><button data-bs-dismiss="offcanvas" section-no="9" @click="currentSection = 'section-9'">Music Therapy: Presenting New Medical Treatments for Neurological Diseases</button></a>
                 </li>
                 <p class="offcanvas-article-info text-muted">
-                  <span title="Category">Todo!!!!!</span><br />
                   <span title="Author">Ziad Bahaa Eldien Ibrahim | Ahmed Sameh Kahla</span><br />
                   <span title="Mentor" class="fst-italic">Jonathan Maged</span>
                 </p>
               </div>
               <div>
                 <li>
-                  <a href="#section-10"><button data-bs-dismiss="offcanvas" section-no="10" @click="currentSection = 'section-10'">Global connectivity of the frontoparietal cognitive control network is related to depression symptoms in the general population</button></a>
+                  <a href="#section-10"><button data-bs-dismiss="offcanvas" section-no="10" @click="currentSection = 'section-10'">Major Depressive Disorder: the changes in the global connectivity of the frontoparietal cognitive control network</button></a>
                 </li>
                 <p class="offcanvas-article-info text-muted">
-                  <span title="Category">Todo!!!!!</span><br />
                   <span title="Author">Adham Emam | Mohammed Hassan | Mohamed Majid | Omar Amr | Jonathan Maged</span><br />
                 </p>
               </div>
@@ -171,7 +162,6 @@
                   <a href="#section-11"><button data-bs-dismiss="offcanvas" section-no="11" @click="currentSection = 'section-11'">Conscious Brain Mind-Controlled Cybonthitic Cyborg Bionic-Leg - V2</button></a>
                 </li>
                 <p class="offcanvas-article-info text-muted">
-                  <span title="Category">Todo!!!!!</span><br />
                   <span title="Author">Ahmed Ayman | Moaz Allam | Mohammed Sabry</span><br />
                 </p>
               </div>
@@ -999,7 +989,6 @@
         </section>
         <!-- END: SECTION 6 -->
 
-        <!-- OLD -->
         <!-- START: SECTION 7 -->
         <section class="section-7" id="section-7" v-show="currentSection == 'section-7'">
           <div class="container-lg">
@@ -1010,168 +999,82 @@
                     d="M0 256C0 167.6 71.63 96 160 96H264C277.3 96 288 106.7 288 120C288 133.3 277.3 144 264 144H160C98.14 144 48 194.1 48 256C48 317.9 98.14 368 160 368H264C277.3 368 288 378.7 288 392C288 405.3 277.3 416 264 416H160C71.63 416 0 344.4 0 256zM480 416H376C362.7 416 352 405.3 352 392C352 378.7 362.7 368 376 368H480C541.9 368 592 317.9 592 256C592 194.1 541.9 144 480 144H376C362.7 144 352 133.3 352 120C352 106.7 362.7 96 376 96H480C568.4 96 640 167.6 640 256C640 344.4 568.4 416 480 416zM424 232C437.3 232 448 242.7 448 256C448 269.3 437.3 280 424 280H216C202.7 280 192 269.3 192 256C192 242.7 202.7 232 216 232H424z"
                   />
                 </svg>
-                Global connectivity of the frontoparietal cognitive control network is related to depression symptoms in the general population
+                Genetics of Alzheimer’s disease: How the beta-amyloid hypothesis (Aβ) cannot be the best framework for understanding, addressing, and treating Alzheimer's disease.
               </h2>
-              <p class="section-author text-center text-muted">Adham Emam, Mohammed Hassan, Mohamed Majid, Omar Amr, Jonathan Maged<br />(STEM High School for boys 6<sup>th</sup> of October)</p>
+              <p class="section-author text-center text-muted">Sama El Sayed<br />(Dar El Hanan Language School)</p>
               <div class="content">
                 <p class="content-abstract">
                   <span>Abstract</span>
-                  <span
-                    >Variation in mental health among people may usually indicate the persistence of mental illnesses even if the individual lacks the diagnostic criteria for this illness. In order to clarify the factors that reveal the presence of mental illness risks, and the subclinical problems affecting life quality, it is essential to study and analyze the individual variability regarding their mental health. In fact, studying the relationship between mental health symptoms and resting-state functional connectivity patterns in cognitive control systems is the key which will reveal a
-                    better understanding of the variability of the brain’s large-scaled mechanism. The frontoparietal cognitive control network (FPN) is a control network serving to rapidly and instantiate new task states by flexibly interacting with other control and processing networks. Any change in FPN would disrupt the ability of symptoms regulation resulting in negatively mental health impacts. In fact, depression symptoms severity negatively correlated with between-network global connectivity (BGC) of the FPN. From this, it is supposed that any decrease in the connectivity between the
-                    FPN and the rest parts of the brain is related to increasing the severity of depression symptoms for the person in general.</span
-                  >
+                  <span>Alzheimer’s disease (AD) is a progressive chronic neurodegenerative disease caused mainly by a genetic mutation in the brain. The beta-amyloid hypothesis is a leading hypothesis that has been widely-accepted throughout the years .It indicates that clumps of beta-amyloid particles, which are cleaved from the protein APP on the neuronal membrane by an external enzyme known as beta-secretase, are the primary cause of AD. Despite the accuracy and extensive research on this particular theory, clinical trials and drug tests that specifically target (Aβ) almost never succeed in producing a medication that treats the disease from the core rather than just its symptoms like other medications on the market at the time, like memantine. The debate over the reliability of the beta-amyloid theory and the disappointing results of therapeutic trials for AD will be covered in this paper.  Moreover, other researchers have chosen a different path in their quest to learn more about possible explanations for AD. This paper will also go over some of the research done to demonstrate the pathological relationship and even the role of  Aβ disposition in the brain.</span>
                 </p>
                 <div class="subsection">
                   <p class="subtitle">I. Introduction</p>
-                  <span
-                    >Depression, altering more than 264 million people around the world1, is a severe mental health disorder that frequently leads to suicide. In order to be diagnosed with depression, a patient should meet at least four symptoms based on criteria. Also, the symptoms should have persisted for two weeks. The criteria are irritability, anorexia, feeling empty or sad, insomnia, and weight change. Although some people might not meet the criteria, they would experience some symptoms of depression. In this review, this natural variability was used, helping in comprehending the
-                    neuroscience of poor mental health and factors that might contribute to developing a severe mental illness. One study hypothesized that symptoms of poor mental health are related to the Front-parietal network (FPN). According to another study, the FPN has a physiological role in protecting against mental health symptoms.</span
-                  >
-                  <p>
-                    Disturbance in the FPN function, altering the domain-general neurocognitive feedback system capable of regulating symptoms as they occur, is the primary reason for multiple mental disorders. The FPN is a flexible hub, which means it can quickly modify the functional connections regarding its goals because it has high connectivity across the brain. Individual variations in the overall capacity to control cognition can influence symptoms, according to significant evidence that the FPN functions are domain-general. Depression, schizophrenia, anxiety, attention deficit
-                    hyperactivity disorder, and eating disorders have been noticed in patients with disturbances in FPN functional connectivity (FC). In this review, we focused on FC assessed by functional magnetic resonance imaging (fMRI), estimated as the material connection in the blood oxygenation level-dependent (BOLD) signal between brain areas. At the same time, individuals relax in the scanner.
-                  </p>
-                  <p>Two studies estimated a summary statistic regarding the level of conductivity of FPN around the brain. However, the relative size of different networks can impact these calculations. For instance, nodes with a smaller network will have fewer connections than the more extensive network. Thus, a study used between-network global connectivity (BGC) to determine how effectively a brain area is connected to its rest.</p>
-                  <p>
-                    Patients suffering from severe depression had anomalies in FC patterns in the brain, which involved FPN functional connections. In addition, patients suffering from depression had lower conductivity between FPN areas. A similar result was seen in undiagnosed people with depressive symptoms. Furthermore, according to another research, global brain connectivity was reduced in the dorsolateral prefrontal cortex (DLPFC) and medial prefrontal cortex sections of FPN in individuals with depression. Moreover, A disruption in FC within the DLPFC has been indicated in patients
-                    suffering from depression. Also, the same result was found in the default mode network (DMN). Researchers have also sought to categorize depression based on FC patterns. The reduced connectivity in FPN is the most common subtype involving fatigue and anxiety. In addition, when patients are trying to regulate their emotions or being threatened activation in the FPN and changes in FPN FC have been indicated. There is a decline in global brain connectivity in depressed individuals; the FC value for each region's connections has been revealed inside the prefrontal cortex. The
-                    loss in global brain connection was saved by using ketamine therapy.
-                  </p>
-                  <p>Research on the global connectivity of the front-parietal cognitive control network will be reviewed in this review. It was expected that individual variations in depression symptoms in undiagnosed persons would relate to BGC in the FPN, based on a previously proposed theoretical framework and detected FPN FC changes in patients with severe depression. Support for our theory would give vital evidence for the possibly widespread involvement of global FPN intrinsic FC in controlling mental health symptoms.</p>
-                </div>
-                <div class="subsection">
-                  <p class="subtitle">II. Major Depressive Disorder</p>
                   <div class="floating-figure clearfix">
                     <figure class="float-none float-lg-end order-last">
                       <img src="../../resources/issues/assets/imgs/issue1/article6/figure_1.jpeg" alt="Figure 1" />
-                      <figcaption>Figure 1: The circuits in the brain that contain neurotransmitters and may be dysfunctional in areas where depressive symptoms are present.</figcaption>
+                      <figcaption>Todo!!!!!!</figcaption>
                     </figure>
-                    <span class="order-0"
-                      >The hippocampus controls the recall and control of emotional memories with the assistance of the amygdala. Hippocampus is a complex brain structure embedded deep into the temporal lobe. Notably, people with depression frequently have reduced hippocampus volume, which correlates with depressive episodes' length and frequency. Major depressive disorder affects several areas of the brain (figure 1). The Monoaminergic neurotransmission influences these brain areas' structure and function by providing the neural basis for mood, motivation, and reward. Consequently,
-                      disruptions in the functional connectivity in these neural networks play a vital role in developing severe depression. Three critical hormones are commonly modulated by monoaminergic neurotransmission: serotonin, dopamine, and norepinephrine.</span
-                    >
+                    <span class="order-0">Alzheimer’s disease (AD)  is the world’s most common cause of death after heart disease. Dementia on the other hand is caused by Alzheimer’s disease. Every 3 seconds, someone in the world develops dementia, and there are currently 55 million people living with dementia globally.<tooltip data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-placement="bottom" data-bs-html="true" title="Loading ..." reference-no="6.1">[1]</tooltip> It begins with a damage in main memory and progresses to difficulty performing even the most basic actions, such as urinating and swallowing. Since AD is the most frequent cause of dementia <tooltip data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-placement="bottom" data-bs-html="true" title="Loading ..." reference-no="6.1">[1]</tooltip>, numerous explanations have been put forth during the past ten years, genetics is the theory that best explains it, although there are other theories such as environment, immunity, or heredity. In Particular, 40 genes are linked to cause AD risks <tooltip data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-placement="bottom" data-bs-html="true" title="Loading ..." reference-no="6.2">[2]</tooltip>, some of the most common are APP, PSEN1, PSEN2.</span>
+                    <span class="order-1">These genes provide the explanation for how Alzheimer's disease arises, although the validity of this idea, known as the beta-amyloid theory (Aβ), is currently being debated by scientists and researchers. According to this theory, a rise in Aβ production triggers a chain of events, also known as a cascade, that eventually leads to neurodegeneration and dementia. Most scientific studies consider the Aβ theory as the primary explanation for the disease and act upon it while trying to design a drug which targets plaques of amyloid; However, it might merely be the initial source of subsequent immunological or physiological processes that result in the well-known symptoms of AD <tooltip data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-placement="bottom" data-bs-html="true" title="Loading ..." reference-no="6.3">[3]</tooltip>.</span>
                   </div>
-                  <p class="subtitle ms-3">i. Serotonin</p>
-                  <span>Serotonin) 5-hydroxytryptamine) is a monoamine neurotransmitter that plays a crucial role in modulating mood and cognition. Studies have shown that MDD patients have serotonin depletion. The serotonin levels can be affected by many reasons or complications in the body as follows: </span>
-                  <p class="fw-bold fst-italic">Tryptophan depletion</p>
-                  <span>Serotonin is derived from an amino acid called tryptophan. The patient medication can affect the tryptophan levels, causing tryptophan depletion that decreases serotonin levels. Also, tryptophan depletion can be caused by suffering from MDD for a few months. Hopefully, the tryptophan depletion patients tend not to show any mood changes following tryptophan depletion.</span>
-                  <p class="fw-bold fst-italic">Polymorphisms</p>
-                  <div class="floating-figure clearfix">
-                    <figure class="float-none float-lg-end order-last">
-                      <img src="../../resources/issues/assets/imgs/issue1/article6/figure_2.jpeg" alt="Figure 2" />
-                      <figcaption>Figure 2: The direct correlation between the increase in stress and the risk of getting Major Depressive Disorder.</figcaption>
-                    </figure>
-                    <span class="order-0"
-                      >Polymorphisms are a group of genes that perform vital processes in the human brain. The number of particular types of neurons and their synaptic connections, the intracellular transduction of neuronal signals, the metabolism of neurotransmitters and their receptors, and the changes in response to environmental stressors are mainly controlled by the polymorphisms. The serotonin transporter gene is the most studied in major depressive disorder. It has a polymorphism that results in two distinct alleles (long and short). The short allele slows down the serotonin
-                      transporter's production. Consequently, the rate at which serotonin neurons adjust to changes in their stimulation is considered slowing down. The polymorphism may affect a person's sensitivity to stress since an acute stressor boosts serotonin release.</span
-                    >
-                    <span class="order-1">(Todo!!!!!!) Stress affects the serotonin transporter that carries the short allele, making it very vulnerable</span>
-                  </div>
-                  <p class="subtitle ms-3">ii. Dopamine</p>
-                  <span
-                    >Dopamine is a modulatory neurotransmitter responsible for the motivational component of reward-motivated behavior. In our case study, dopamine plays a crucial role in the pathophysiology of major depressive disorder. Prefrontal cortex and ventral striatum dopamine levels rise in response to amygdala-perceived environmental threats. Local inhibitory feedback makes sure that equilibrium is restored. A significant stressor can interfere with this feedback mechanism by changing the amounts of brain-derived neurotrophic factors in the striatum. For example, an improper salience
-                    or slightly unpleasant stimuli may result from abnormal feedback in the striatal dopamine system. The impact of stressful life events in the past on current mood is influenced by a variation in the dopamine type 2 receptor gene. In MDD patients, a severe increase of striatal D2 receptor binding in the amygdala's postmortem central and basal nuclei. Through interactions with the environment, the dopamine system's genetic make-up may impact sensitivity to major depressive disorder, which results in Anhedonia: the inability to feel pleasure.</span
-                  >
-                  <p class="subtitle ms-3">iii. Norepinephrine</p>
-                  <span>Norepinephrine, a chemical that is produced mainly by sympathetic nerve fiber endings, is responsible for the "fight or flight" system in the body. NE plays a determinant role in executive functioning, regulating cognition, motivation, and intellect, which are fundamental in social relationships. The cell bodies in the locus coeruleus in the brain manage adrenergic pathways, connecting to various parts of the brain and the spinal cord. NE neurons end significant projections to the limbic system in addition to the frontal cortex.</span>
-                  <div class="floating-figure clearfix">
-                    <figure class="float-none float-lg-end order-last">
-                      <img src="../../resources/issues/assets/imgs/issue1/article6/figure_3.jpeg" alt="Figure 3" />
-                      <figcaption>Figure 3: The binding of norepinephrine neurotransmitters for their receptors from the presynaptic to the postsynaptic membrane.</figcaption>
-                    </figure>
-                    <span class="order-0"
-                      >The density and sensitivity of 2α-adrenoceptors, which modulate NE release, are altered by increased β-adrenergic receptor binding in the frontal cortex in MDD patients. Additionally, locus coeruleus postmortem tissues from people with significant depression have been shown to have reduced NE transporter binding. All of these alterations are caused by the physiopathology of depression. Regardless of the explanation, these findings suggest that NE plays a significant role in depression. Dare decreased alertness, low energy, issues with inattention, focus, and cognitive
-                      function are linked to lower NE neurotransmission.</span
-                    >
-                  </div>
-                  <p>FPN is a system responsible for the general goal-attaining process, involving regulating the mental disorder symptoms. Thus, the differences in FPN BGC are somehow related to depression symptoms. A study demonstrated a notable correlation between the rate of connection of the FPN to the rest of the brain and the availability of depressive symptoms in persons who have not previously been diagnosed with depression. Using BGC, the results estimated that patients with fewer depression symptoms have an FPN hat is more connected to the brain regions.</p>
                 </div>
                 <div class="subsection">
-                  <p class="subtitle">III. Between-Network Global Connectivity measures how strongly each brain region is linked to the rest of the brain networks</p>
-                  <span
-                    >BGC is a method that evaluates the mean FC between each brain region and the other network brain regions. BGC mitigates the potential bias of other graph centrality metrics, which can be exaggerated in locations with vast networks. A study demonstrated that the BGC in the DMN is relatively low. Another study, using the participation coefficient, showed the same findings as the previous findings. Although the findings of the two studies indicated some similarities, there were some dissimilarities. Some of these disparities might be attributed to BGC and participation
-                    coefficient variances. Generally, the participation coefficient is computed by thresholding a graph and then evaluating the distribution of edges between networks. A high value implies that the edges are dispersed evenly to other networks.</span
-                  >
-                  <span
-                    >In contrast, a low value shows that the edges preferentially connect nodes in a smaller number of other networks. BGC does not require a graph to be threshold before computation and compares the mean FC weight for each region to all other out-of-network regions. However, previous techniques employing global brain connectivity and degree, which both include within-network connections, result in DMN areas with effective connectivity to the rest of the brain; These findings show that prior studies identifying the DMN as strongly linked to the rest of the brain are mostly
-                    driven by high FC within the DMN rather than increased connectivity between the DMN and nodes in other functional networks.</span
-                  >
-                  <span>The brain regions in which the BGC was high are the motor and tactile cortex, the lateral prefrontal cortex, the auditory cortex, and higher order visual regions. BGC was high in the lateral prefrontal regions, and higher order visual areas have more FC and global brain connectivity. The lateral prefrontal cortex, higher-order visual areas, auditory cortex, and somatosensory cortex have all been found to have increased global brain connection.</span>
-                  <span>After going through the previous methods and BGC, there were some differences between them. In lower visual areas, BGC was relatively low, in contrast to greater connectivity estimates computed by others. The disparities reported between BGC, and other measures of connectivity strength may be due to BGC failing to account for the relatively strong local connections within the visual network. Indeed, the primary and secondary visual cortex have a higher local connection strength than remote connectivity.</span>
-                </div>
-                <div class="subsection">
-                  <p class="subtitle">IV. BGC in the FPN Is Negatively Correlated with Depression Symptoms</p>
-                  <span
-                    >BGC is consistent with the previous attempts at the degree of connectivity classification in brain regions. In fact, BGC’s concentration is quite lower in the lower visual regions. In fact, the primary and the secondary visual cortex show high local connectivity rather than distant ones. The presence of BGC in FPN correlates negatively to depression symptoms, as it was found that individuals who experience greater connectivity of the FPN with the rest parts of the brain experience fewer depression symptoms. This emphasizes that the well-connected FPN can serve as a
-                    protective shield against depression and mental health symptoms. In fact, FPN FC decreases were reported in individuals diagnosed with major depression. It helped in dividing depression into subtypes as well. Decreases in FC in the language network have been reported in depression patients and language performance deficits have also been reported in depression patients. The current results might be consistent with these observed deficits in language in depressed individuals. However, future studies should attempt to replicate these results in an independent large
-                    sample.</span
-                  >
-                  <p>Severe depression symptoms can cause an obvious reduced FC between dIPFC and the supramarginal gyrus, instead of decreased levels of connectivity between the superior parietal lobule and the dIPFC. Currently, the found therapies work on treating via modulating the prefrontal cortex FC in depression patients which are expected to develop more in the future and include targeting the treatment of network communication aspects.</p>
-                </div>
-                <div class="subsection">
-                  <p class="subtitle">V. Methods of Study</p>
-                  <p class="subtitle ms-3">i. Demographic Data Analysis</p>
+                  <p class="subtitle">II. The beta-amyloid hypothesis and its interpretations</p>
+                  <span>The amyloid precursor protein (APP), a type I transmembrane glycoprotein, is broken down to produce the Aβ peptide. A type of extracellular protease known as the α-secretase typically cleaves the APP near to the membrane. This releases a soluble extracellular fragment. These cleaved parts are soluble therefore, they can be recycled and used again.<tooltip data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-placement="bottom" data-bs-html="true" title="Loading ..." reference-no="6.3">[3]</tooltip> However, in AD, β-secretase takes the role of  α-secretase and cleaves the sticky and insoluble portion of APP, now known as the beta amyloid (Aβ). Aβ plaques are created when these clingy monomers clump together.</span>
+                  <p>These plaques cause substantial disruption to memory formation by blocking the synaptic cleft, a tiny space where neurons communicate electrically and chemically. This space is where these plaques cause damage to neurons. Additionally, these plaques trigger an immunological response with the help of microglia, which are immune cells in the brain. This may result in inflammation and further harm the neurons.</p>
                   <div class="floating-figure clearfix">
                     <figure class="float-none float-lg-end order-last">
-                      <img src="../../resources/issues/assets/imgs/issue1/article6/table_1.jpeg" alt="Table 1" />
-                      <figcaption></figcaption>
+                        <img src="../../resources/issues/assets/imgs/issue1/article6/figure_2.jpeg" alt="Figure 2" />
+                        <figcaption>Todo!!!!!!!</figcaption>
                     </figure>
-                    <span class="order-0"
-                      >Participants' demographic data were gathered, and they answered 11 questions about their hand use for various tasks, such as writing, throwing, using scissors, holding their toothbrush, striking a match, opening a box, kicking, using a knife, using a spoon, placing one hand on top of another while using a broom, and using which eye when using just one. Each question was answered with one of the following options: always right, often right, no preference often left, or always left. Answers were given a score based on whether they were always right (2), often right (1), no
-                      preference (0), often left (-1), or always left (-2). These scores were added up to create the laterality quotient (LQ), which was then divided by the highest possible score of 22. An LQ score of -100 shows a strong preference for the left hand, 0 for no preference, and 100 for a strong preference for the right hand. Right-handedness was self-reported by each participant. One person, however, showed an LQan showing a preference for the left hand. All analyses have taken the person who prefers using their left hand into account.</span
-                    >
-                    <span class="order-1">According to studies, the CESD can be divided into one or four variables. Tree factor scores—somatic symptoms, negative affect, and anhedonia—were computed in addition to each participant's raw CESD score, based on a recent study. During the behavior-only session, participants also finished a number of flexible cognition tests. These tests included the culture fair test by Cattell, the goal neglect task by Duncan, and Raven's progressive matrices. 96 people made up the final sample (Table 1)</span>
+                    <span class="order-0">Todo!!!!!!!!!!!Peptide bond cleavage is carried out by the transmembrane protein known as β-secretase. It!!!!!!!!!!!!! Scientists conducted preliminary tests on transgenic animal models, or animals whose genomes have been altered for use in gene research, such as mice, to test the validity of this hypothesis. In the case of studying AD, scientists have chosen mice according to some criteria, such as how they identify familial forms of AD. Transgenic mice don’t make the same plaques as humans do; however, they show neuronal degeneration and inflammation due to the toxicity of Aβ. Even the plaques <tooltip data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-placement="bottom" data-bs-html="true" title="Loading ..." reference-no="6.7">[7]</tooltip> formed in the brains of mice are obvious figure  microscopically like humans. (As shown in figure 1). An impairment in spatial learning and memory was seen when the transgenic mice were bred with Tg APP, transgenic amyloid precursor protein, as shown by a water maze test.</span>
+                    <p class="order-1">These observations imply that cognitive abnormalities seen in other Tg APP animals may also occur prior to A plaque formation like when these mice are assessed at various intervals. <tooltip data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-placement="bottom" data-bs-html="true" title="Loading ..." reference-no="6.6">[6]</tooltip></p>
                   </div>
-                  <p class="subtitle ms-3">ii. fMRI Processing and Network Assignment and Analysis</p>
-                  <p class="fw-bold fst-italic">fMRI processing</p>
-                  <span>The Human Connectome Project minimal preprocessing pipeline, version 3.5.0, was used to preprocess functional MRI data. Anatomical restructuring and segmentation, EPI reconstruction, segmentation, and spatial normalization to a reference template were all included in the preprocessing steps. Additionally, intensity normalization and motion correction were performed.</span>
-                  <p class="fw-bold fst-italic">Network Assignment and Analysis</p>
+                </div>
+                <div class="subsection">
+                  <p class="subtitle">III. Clinical trials that had failed the beta-amyloid hypothesis</p>
+                  <p class="subtitle ms-3">i. vaccination:</p>
+                  <div class="floating-figure clearfix">
+                    <figure class="float-none float-lg-end order-last">
+                        <img src="../../resources/issues/assets/imgs/issue1/article6/figure_3.jpeg" alt="Figure 3" />
+                        <figcaption>Todo!!!!!</figcaption>
+                    </figure>
+                    <span class="order-0">A pharmaceutical company named Alan has chosen to treat AD by training the immune system to recognise the pathogen, in this case the amyloid plaques, and learn how to eliminate them, acting on the amyloid hypothesis and attempting to target Aβ plaques. To test their vaccine and determine whether it might truly help, they injected mild and moderate AD patients. To create their antigenic components, they created short peptides that mimicked various native Aβ sequences. <tooltip data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-placement="bottom" data-bs-html="true" title="Loading ..." reference-no="6.8">[8]</tooltip></span>
+                    <span class="order-1">The ones used in AD vaccinations are only 6 amino acids long, preventing the activation of Aβ-specific auto-reactive T-cells. This makes them exceedingly specific and focuses them solely on Aβ, preventing any cross-reactivity with APP. Unfortunately, this approach was unsuccessful since four patients who were included in the trial's second phase experienced aseptic meningoencephalitis,<tooltip data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-placement="bottom" data-bs-html="true" title="Loading ..." reference-no="6.10">[10]</tooltip> a type of inflammation brought on by bacterial cultures in the cerebrospinal fluid (CSF). Upon these trials, the corporation suspended the remaining phases after noticing significant side effects. <tooltip data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-placement="bottom" data-bs-html="true" title="Loading ..." reference-no="6.9">[9]</tooltip></span>
+                  </div>
+                  <p class="subtitle ms-3">ii. Solanezumab (synthetics antibody):</p>
                   <div class="floating-figure clearfix">
                     <figure class="float-none float-lg-end order-last">
                       <img src="../../resources/issues/assets/imgs/issue1/article6/figure_4.jpeg" alt="Figure 4" />
-                      <figcaption>Figure 4: By Spronk et al. constructed network assignments (2017). A community detection technique was used to assign each parcel to a network using resting-state fMRI data from a separate dataset (HCP: 100 unrelated). This produced a total of 12 networks. Each parcel's network assignment is indicated by color.</figcaption>
+                      <figcaption>Todo!!!!!</figcaption>
                     </figure>
-                    <span class="order-0">Briefly, the Generalized Louvain was used to assign each parcel to a network. Using data from the resting state, this process was carried out. Twelve useful networks were discovered. (Figure 2 Todo!!!!!!!!!!). The major characteristics of various previously published network partitions are replicated by the functional network topology findings.</span>
-                    <span class="order-1"
-                      >There is a substantial correlation between the degree of BGC and the frequency with which subjects had depressive symptoms. The study was specifically looking for a measure that could quantify the strength of FC for every region compared to every other region in every other network. BGC was determined for each region separately and was established as the mean FC for all connections made outside of the network. All connections from a source region to targets outside the source region's network were referred to as out-of-network connections. Each region of the brain
-                      underwent this process in order to obtain a BGC value.</span
-                    >
-                    <span class="order-2">To summarize impacts at the network level, the mean BGC value was then determined for each of the functional networks. The relationship between BGC and depression symptoms in all brain networks was tested. The main hypothesis is that BGC in the FPN was correlated with depression symptoms.</span>
+                    <span class="order-0">An amyloid-targeting antibody called Solanezumab was created in 2006 by the company Lilly, while another antibody called Bapineuzumab was being produced by Johnson & Johnson in collaboration with Pfizer. An antibody is the result of the body's immune response when a pathogen gets in the blood, in this case the blood-brain barrier (BBB).</span>
+                    <span class="order-1">These companies have separately sought out 5000 AD patients in the mild and moderate phases. They both conducted a double-blind, placebo-controlled study in which one group received the actual medication while the other received a placebo. Following that, a test was conducted to see whether there was a relationship between mental state and the deposition of Aβ using florbetapir positron-emission tomography (PET) or an Aβ-42 measurement in CSF. <tooltip data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-placement="bottom" data-bs-html="true" title="Loading ..." reference-no="6.11">[11]</tooltip></span>
+                    <span class="order-2">Patients were  assigned to be injected with 400    mg of solanezumab or a placebo  every four weeks for 76 weeks, using a score range from 0 to 90, with a higher score indicating greater cognitive impairment. According to the results of this trial, solanezumab, which was given to patients with moderate Alzheimer's disease for four weeks, had no noticeable impact on cognitive impairment. According to its claims, Solanezumab was created to accelerate the removal of soluble Aβ from the brain, supporting the Aβ hypothesis of AD, which holds that the condition is brought on by an excess or inadequate removal of Aβ. (or both). The amyloid hypothesis will need to be taken into account in the context of the findings from this trial and other clinical trials of anti-amyloid treatments. They stated: “If amyloid is not the cause of this disease, Solanezumab would not be expected to slow disease progression.” <tooltip data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-placement="bottom" data-bs-html="true" title="Loading ..." reference-no="6.12">[12]</tooltip></span>
+                  </div>
+                  <p class="subtitle ms-3">iii. BACE inhibitors:</p>
+                  <div class="floating-figure clearfix">
+                    <figure class="float-none float-lg-end order-last">
+                        <img src="../../resources/issues/assets/imgs/issue1/article6/figure_5.jpeg" alt="Figure 5" />
+                        <figcaption>Todo!!!!!</figcaption>
+                    </figure>
+                    <span class="order-0">The β-secretase enzyme previously stated that cleaves APP and releases C99 fragments that form various species of Aβ peptide is known as BACE, or beta-amyloid cleaving enzyme. In patients with mild and moderate  stages of AD, a BACE inhibitor inhibits the first enzymatic step of Aβ production. The inhibitors target these enzymes and stop their work that needs a subsequent course of immunological therapy to remove the amyloid. However, safety concerns persisted as a side effect related with the elimination of Aβ, which was dose-dependent and happened more frequently in ApoE allele 4 carriers than non-carriers. This was demonstrated by monitoring the Aβ levels in the CSF. ApoE, a protein that moves lipids throughout the body, is available in three different forms: e2, e3, and e4. If someone has the e4 allele from either parent, their chance of developing AD is up to 3 or 4 times higher than that of the general population. However, if they have the ApoE 4 allele from both parents, their risk is up to 10 to 14 times higher than that of the general population. <tooltip data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-placement="bottom" data-bs-html="true" title="Loading ..." reference-no="6.13">[13]</tooltip></span>
                   </div>
                 </div>
                 <div class="subsection">
-                  <p class="subtitle">VI. VSRAD and MRI</p>
-                  <div class="floating-figure clearfix">
-                    <figure class="float-none float-lg-end order-last">
-                      <img src="../../resources/issues/assets/imgs/issue1/article6/figure_5.jpeg" alt="Figure 5" />
-                      <figcaption>Figure 5: A) Z score map of a patient with MDD (58 year old Female) B) A healthy control group individual (60 year old female). Color scale of Z score is present in the upper left part.</figcaption>
-                    </figure>
-                    <span class="order-0"
-                      >Volume reduced brain areas in patients with major depressive disorder (MDD) were studied through whole-brain analysis using magnetic resonance imaging (MRI) equipped with a Voxel-based Specific Regional analysis system for Alzheimer’s disease (VSRAD). 71 patients with MDD, enrolled in the study, were aged between 54 and 82 years. 44% of the patients experienced complications from panic or anxiety disorders. A healthy control group consisting of 33 individuals, that had no history of having MDD, was also tested for comparison with the MDD patients. VSRAD was used to
-                      evaluate the local brain volume of patients through a comparison with visual information gathered from MRI scans of healthy individuals by means of voxel-based morphometry (VBM), an imaging technique that investigates focal differences in brain anatomy. A T1-weighted scan, an MRI modality, of the brain was processed with SPM (Statistical Parametric Mapping) to isolate grey matter. Then, automated statistical analysis of grey matter density for the entire brain was done. The magnitude of grey matter density disparity, standard deviation x n, in individual patients from the
-                      healthy individual's means (Z-score) was calculated for each region of the brain.</span
-                    >
-                    <span class="order-1">Data from T1 weighted sagittal images were analyzed and the obtained Z score map was checked for the absence/presence of colored areas, which indicates volume reduction. Areas showing volume reduction by Z score ≥2 were colored blue on the obtained brain images. </span>
-                  </div>
-                  <div class="floating-figure clearfix">
-                    <figure class="float-none float-lg-end order-last">
-                      <img src="../../resources/issues/assets/imgs/issue1/article6/table_2.jpeg" alt="Table 2" />
-                      <figcaption>Table 2: Volume reduction in different regions of the brain</figcaption>
-                    </figure>
-                    <span class="order-0">Of the 71 patients with MDD, volume reduction in the prefrontal cortex, hippocampus, subgenual anterior cingulate cortex (ACC), and amygdala was seen in 20, 35, 66, and 21 patients, respectively. ACC volume reduction appeared more than volume reduction in any other region and had a sensitivity of 93% as an indicator for diagnosing MDD. This provides a means for diagnosing depression using neuroimaging techniques and shows that depression does not affect mental health only, but also has biological effects on the human brain.</span>
-                  </div>
-                </div>
+                  <p class="subtitle">IV. The pathological hypothesis as another suggested theory</p>
+                  <span>Other researchers have dug up to see if there was another approach to explore the AD brain since the results of these clinical trials points to the possibility that the amyloid theory may be incorrect. They followed a completely different road, which was pathology.They used mathematical models by collecting information from brain banks, collection of brain tissue samples from people who donated their brains after they die for research purposes. <tooltip data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-placement="bottom" data-bs-html="true" title="Loading ..." reference-no="6.14">[14]</tooltip></span>
+                  They have compared healthy brain tissue to people who had plaques and tangles in their brains but didn’t have symptoms yet. They specifically looked for networks of genes that were behaving very differently in AD, such as APP, PSEN1, PSEN2. It was suggested that a link is present between viral infections and plaque formation in  animal models .They concentrated on specimens from the entorhinal cortex and the hippocampus, areas of the brain known to have the most severe neuronal loss in AD. <tooltip data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-placement="bottom" data-bs-html="true" title="Loading ..." reference-no="6.15">[15]</tooltip></div>
+                  <span>These samples encouraged them to propose an alternative model for AD, clarifying that the amyloid theory is only a factor, not a cause. For further examination, they have checked for 500 viruses in 4 different brain regions in over 600 brain samples. Two viruses in particular, which are types of herpes virus, were elevated in AD brains that may be a correlation too. They support the theory that Herpesviridae infection might encourage amyloid-amyloidosis, the formation of plaques.These findings with earlier researchers, found a substantial association between HSV-1 and AD. The virus has also been found in amyloid plaques in brain autopsy of AD. <tooltip data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-placement="bottom" data-bs-html="true" title="Loading ..." reference-no="6.16">[16]</tooltip></span>
+                  <span>Other researchers discovered that the severity of the sickness increased with the amount of genetic material that viruses had deposited in people's brains. It's possible that minor variations in people's DNA are enabling the viruses to cause more harm. According to their theory, people who are more susceptible to AD are likely to have a combination of a viral infection and a specific genetic predisposition.
+                    They also conducted an experiment in which they eliminated a gene that one of these viruses had rejected, which resulted in an increase in brain plaques. These findings clearly imply that viruses are at least largely responsible for the disease, but they do not confirm causation. <tooltip data-bs-toggle="tooltip" data-bs-trigger="manual" data-bs-placement="bottom" data-bs-html="true" title="Loading ..." reference-no="6.17">[17]</tooltip></span>
                 <div class="subsection">
-                  <p class="subtitle">VII. Conclusion</p>
-                  <span
-                    >Due to their close connections to other brain networks and capacity to act as a feedback mechanism capable of managing symptoms in a goal-directed way, cognitive control networks play a significant role in mental health. These findings imply that the global network architecture of the human brain is crucial for preserving mental health, even in those who are undiagnosed, and they lend credence to the idea that the FPN keeps a goal-directed feedback loop in place to control symptoms as they manifest. Future research will be crucial in defining the precise pathways by which
-                    FPN affects symptoms and evaluating the feasibility of improving FPN FC with the goal of reducing symptoms and possibly delaying the onset of mental disease.</span
-                  >
+                  <p class="subtitle">V. Conclusion</p>
+                  <span>In conclusion, it is perfectly feasible that AD is brought on or progresses in many ways; consequently, the virus may be implicated in some cases but not others, and a person's immune system may also be engaged. Additionally, measuring AD from a single angle is ineffective for identifying its causes or finding a suitable medication to treat it. There are several reasons why these trials fail, some of which include:  selection of the wrong patient population, Variability in clinical progression rate,Inadequate dosage or exposure to drugs, The wrong time to intervene and  The clinical scales' lack of sensitivity.</span>
                 </div>
                 <div class="references">
                   <div class="subsection">
-                    <p class="subtitle">VII. References</p>
+                    <p class="subtitle">VI. References</p>
                     <div class="row">
                       <div class="col-md-6">
                         <p reference-no="6.1"></p>
@@ -1184,44 +1087,14 @@
                         <p reference-no="6.9"></p>
                         <p reference-no="6.10"></p>
                         <p reference-no="6.11"></p>
+                      </div>
+                      <div class="col-md-6">
                         <p reference-no="6.12"></p>
                         <p reference-no="6.13"></p>
                         <p reference-no="6.14"></p>
                         <p reference-no="6.15"></p>
                         <p reference-no="6.16"></p>
                         <p reference-no="6.17"></p>
-                        <p reference-no="6.18"></p>
-                        <p reference-no="6.19"></p>
-                        <p reference-no="6.20"></p>
-                        <p reference-no="6.21"></p>
-                        <p reference-no="6.22"></p>
-                        <p reference-no="6.23"></p>
-                        <p reference-no="6.24"></p>
-                      </div>
-                      <div class="col-md-6">
-                        <p reference-no="6.25"></p>
-                        <p reference-no="6.26"></p>
-                        <p reference-no="6.27"></p>
-                        <p reference-no="6.28"></p>
-                        <p reference-no="6.29"></p>
-                        <p reference-no="6.30"></p>
-                        <p reference-no="6.31"></p>
-                        <p reference-no="6.32"></p>
-                        <p reference-no="6.33"></p>
-                        <p reference-no="6.34"></p>
-                        <p reference-no="6.35"></p>
-                        <p reference-no="6.36"></p>
-                        <p reference-no="6.37"></p>
-                        <p reference-no="6.38"></p>
-                        <p reference-no="6.39"></p>
-                        <p reference-no="6.40"></p>
-                        <p reference-no="6.41"></p>
-                        <p reference-no="6.42"></p>
-                        <p reference-no="6.43"></p>
-                        <p reference-no="6.44"></p>
-                        <p reference-no="6.45"></p>
-                        <p reference-no="6.46"></p>
-                        <p reference-no="6.47"></p>
                       </div>
                     </div>
                   </div>
