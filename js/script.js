@@ -1,7 +1,3 @@
-var loader = document.querySelector('#preloader')
-window.addEventListener("load", function(){
-    loader.style.display = "none";
-});
 var lastScrollTop = 0;
 header = document.querySelector('header');
 window.addEventListener("scroll", function(){
